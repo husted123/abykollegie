@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aabyhoej Kollegiet</title>
+
+    <!-- Links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/washingMachine.css">
+    <link rel="stylesheet" href="stylesheets/booking.css">
+    
+
+</head>
+
+<body>
+    <header class="headerBackground">
+   
+        <a href="index.html">
+            <img class="logo" src="media/logoaby.png">
+        </a>
+    
+    </header>
+    <h1 class="titel">Åbykollegiet Dashboard</h1>
+    <div class="grid-container">
+        <div class="motionGraphic">
+           
+            <video controls>
+                <source src="media/FINAL_COMP.mp4" type="video/mp4">
+                
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        
+        <div class="washingRoom">
+            <div class="card">
+                    <h2 class="card_header">Ledige vasketider</h2>
+                <div class="row1">
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                </div>
+                <div class="row2">
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
+                </div>
+            
+                <ul class="list">
+                    <li class="green"><div id="greenbox"></div>Ledige tider</li>
+                    <li class="yellow"><div id="yellowbox"></div> Delvis ledige tider</li>
+                    <li class="red"><div id="redbox"></div> Ingen ledige tider</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="fitness">   <div class="card">
+            <h1 class="fit-header">Antal Personer I Fitness</h1>
+            <h2 class="num"></h2>
+            <img id="fit">
+            <p class=fit-text>Grundet Covid-19 pandemien og de gældende retningslinjer, kan der kun opholde sig 4 personer ad gangen i styrkerummet.</p>
+            </div>
+        </div>
+
+
+        <div class="booking">
+            <div class="card bottomCard">
+
+            <div class="container book-container">
+              
+                
+                
+                <form action="#">
+                <h2 class="heading">Reservation af fælleslokale</h2>
+                
+                <div class="form-field">
+                <p>Dit Navn</p>
+                <input type="text" placeholder="Dit Navn">
+                </div>
+                <div class="form-field">
+                <p>Din email</p>
+                <input type="email" placeholder="Din Email">
+                </div>
+                <div class="form-field">
+                    <p>Værelsesnummer</p>
+                    <input type="text" placeholder="Dit værelsesnummer">
+                    </div>
+                <div class="form-field">
+                <p>Dato</p>
+                <input type="date">
+                </div>
+               
+                
+                <button class="btn">Indsend</button>
+                </form>
+                </div>
+                </div>
+        
+        </div>
+
+        
+        
+       
+            <div class="info">
+                <div class="card bottomCard">
+                    <h2 class="heading">Reservation af fælleslokale</h2>
+                    <img src="media/infografik.png" class="infografik">
+                </div>
+            </div>
+
+
+            <div class="viceVært">
+            <div class="container">
+            <div class="card bottomCard">
+               
+              
+   
+                    <form action="#">
+                    <h2 class="heading">Kontakt vores <br> vicevært</h2>
+                    
+                    <div class="form-field">
+                    <p>Dit Navn</p>
+                    <input type="text" placeholder="Dit Navn">
+                    </div>
+                    <div class="form-field">
+                    <p>Din email</p>
+                    <input type="email" placeholder="Din Email">
+                    </div>
+                    <div class="form-field">
+                        <p>Værelsesnummer</p>
+                        <input type="text" placeholder="Dit værelsesnummer">
+                        </div>
+                        <div class="form-field">
+                    <p>Årsag</p>
+                    <select name="årsag">
+                        <option value="Vælg årsag">Angiv årsag</option>
+                        <option value="Vand">Vand</option>
+                        <option value="Varme">Varme</option>
+                        <option value="El">El</option>
+                        <option value="Hårde hvidevarer">Hårde hvidevarer</option>
+                        <option value="Vinduer">Vinduer</option>
+                    </select></div>
+                    <div class="form-field">
+                        <p>Besked til vicevært</p>
+                    <textarea cols="4" rows="60" placeholder="Beskriv kort hvad din henvendelse drejer sig om..."></textarea>
+                    </div>
+
+                    
+                   
+                    
+                    <button class="btn">Indsend</button>
+                    </form>
+                    </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+      
+</body>
+<script src="app.js"></script>
+</html>

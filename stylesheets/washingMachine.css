@@ -1,0 +1,101 @@
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row2 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.washingmachine {
+    height: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.green {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+
+#greenbox {
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    width: 7.5px;
+    height: 7.5px;
+    margin-right: 5px;
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+
+#redbox {
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    width: 7.5px;
+    height: 7.5px;
+    margin-right: 5px;
+}
+
+.yellow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+
+#yellowbox {
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 10px;
+    width: 7.5px;
+    height: 7.5px;
+    margin-right: 5px;
+}
+
+
+/* input vicevært section */
+
+input {
+    width: 50%;
+    height: 25px;
+}
+
+textarea {
+    width: 50%;
+    height: 75px;
+}
+
+
+.headerVice{
+    font-size: 35px;
+}
+

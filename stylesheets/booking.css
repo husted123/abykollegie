@@ -1,0 +1,72 @@
+     .container-time {
+            background-color: rgba(0, 0, 0, .95);
+            
+            outline: 3px dashed #998100;
+           
+            }
+
+
+            .heading {
+                font-size: 30px;
+                text-align: center;
+               
+                
+                border-radius: 100px;
+                }
+                
+                
+                    form{
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                    }
+                    
+
+
+                   
+                        form p {
+                        font-weight: 600;
+                        font-size: 1.5vw;
+
+                        }
+                        .form-field {
+                        display: flex;
+                        justify-content: space-between;
+                        }
+               
+
+                        .btn {
+                        
+                            
+                            padding: 10px 20px;
+                            border: none;
+                            font-size: 18px;
+                            border-radius: 100px;
+                            -webkit-border-radius: 100px;
+                            -moz-border-radius: 100px;
+                            -ms-border-radius: 100px;
+                            -o-border-radius: 100px;
+                            box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+                            cursor: pointer;
+                            transition: all .3s;
+                            -webkit-transition: all .3s;
+                            -moz-transition: all .3s;
+                            -ms-transition: all .3s;
+                            -o-transition: all .3s;
+                            width: 100%;
+
+
+                            }
+                            
+                            .btn:hover {
+                            transform: scale(1.03);
+                            -webkit-transform: scale(1.03);
+                            -moz-transform: scale(1.03);
+                            -ms-transform: scale(1.03);
+                            -o-transform: scale(1.03);
+                            box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+                            }
+                              
+                        .form-field{
+                            margin: 15px 15px;
+                        }
