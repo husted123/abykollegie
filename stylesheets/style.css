@@ -14,11 +14,14 @@ html {
     font-family: 'Karla', sans-serif;
   }
   body{
-   
     background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
   }
   
+  .contentWrap{
+    padding: 15px;
+
+  }
   ol, ul {
     list-style: none;
   }
@@ -58,40 +61,94 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
     background-position: center;
     background-size: cover;
   }
-
-  .logo{
-      width: 150px;
-
+  #header {
+    box-sizing: border-box;
+   
+    padding: 10px 15px;
+    display: table;
+  
+  
+  }
+  
+  .logo {
+      text-align: center;
+      width: 200px;
+      color: #fff;
+  }
+  
+  .logo,
+  .menu {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+  .menu ul {
+    text-align: right;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    vertical-align: top;
   }
 
-  .card {
-   
-    padding: 5px;
+  .dashboard{
+    color: white;
+    font-size: 4vw;
+  }
+ 
+
+.videoBorder{
+  height: 82.5vh;
+  border-radius: 15px;
+    background-color: white;
+background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+text-align: center;}
+
+.videoBorder video{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 90%;
+  border-radius: 15px;
+  
+}
+
+  .cardUpper{
+    height: 40vh;
+    border-radius: 15px;
+    background-color: white;
+background-image: url("https://www.transparenttextures.com/patterns/60-lines.png")
   }
   .bottomCard{
     height:55vh;
-    border: 1px dotted black;
     border-radius: 15px;
     
     background-color: white;
 background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
   }
 
-
-  .motionGraphic video{
-    max-width: 100%;
-    padding: 40px;
-  }
- 
-  .infografik{
-    padding: 10px;
-  }
+  
+  
 
   .num, .fit-header {
     text-align: center;
     margin:0 auto;
   }
 
+
   .fit-text {
     text-align: center;
+    font-size:1.25vw;
+  }
+  
+  #fit{width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .infografik{
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }

@@ -9,23 +9,24 @@
             .heading {
                 font-size: 30px;
                 text-align: center;
-               
+               margin-top: 30px;
                 
                 border-radius: 100px;
                 }
                 
                 
                     form{
+                        height: 50vh;
                         display: flex;
                         justify-content: space-between;
                         flex-direction: column;
+                        margin: 0px 30px;
                     }
                     
 
 
                    
                         form p {
-                        font-weight: 600;
                         font-size: 1.5vw;
 
                         }
@@ -53,7 +54,10 @@
                             -moz-transition: all .3s;
                             -ms-transition: all .3s;
                             -o-transition: all .3s;
-                            width: 100%;
+                            width: 80%;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
 
 
                             }
@@ -67,6 +71,4 @@
                             box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
                             }
                               
-                        .form-field{
-                            margin: 15px 15px;
-                        }
+                       

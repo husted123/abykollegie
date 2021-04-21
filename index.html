@@ -17,27 +17,36 @@
 </head>
 
 <body>
-    <header class="headerBackground">
-   
-        <a href="index.html">
+    <header class="headerBackground" id="header">
+       <DIV class="logo">
             <img class="logo" src="media/logoaby.png">
+       </DIV>
+
+        <div class="menu">
         </a>
+        <ul>
+        <li><h1 class="dashboard">ÅBYKOLLEGIE DASHBOARD</h1></li>
+    </ul>
+    </div>
     
     </header>
-    <h1 class="titel">Åbykollegiet Dashboard</h1>
+
+    <div class="contentWrap">
+  
     <div class="grid-container">
         <div class="motionGraphic">
-           
+           <div class="videoBorder">
             <video controls>
                 <source src="media/FINAL_COMP.mp4" type="video/mp4">
                 
                 Your browser does not support the video tag.
               </video>
+            </div>
         </div>
         
         <div class="washingRoom">
-            <div class="card">
-                    <h2 class="card_header">Ledige vasketider</h2>
+            <div class="card cardUpper">
+                    <h1 class="card_header">Ledige vasketider</h1>
                 <div class="row1">
                 <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
                 <div class="box"><img src="/media/washingmachine.png" alt="washingmachine icon" class="washingmachine"></div>
@@ -60,7 +69,7 @@
         </div>
 
         
-        <div class="fitness">   <div class="card">
+        <div class="fitness">   <div class="card cardUpper cardFit">
             <h1 class="fit-header">Antal Personer I Fitness</h1>
             <h2 class="num"></h2>
             <img id="fit">
@@ -109,7 +118,6 @@
        
             <div class="info">
                 <div class="card bottomCard">
-                    <h2 class="heading">Reservation af fælleslokale</h2>
                     <img src="media/infografik.png" class="infografik">
                 </div>
             </div>
@@ -162,7 +170,7 @@
             </div>
         </div>
 
-      
+    </div>
 </body>
 <script src="app.js"></script>
 </html>
